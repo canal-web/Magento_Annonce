@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Canalweb_Annonce>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Canalweb_Annonce>
+    </modules>
+</config>

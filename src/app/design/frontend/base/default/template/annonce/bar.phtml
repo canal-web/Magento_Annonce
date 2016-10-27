@@ -1,0 +1,12 @@
+<?php
+$messages = $this->getMessages();
+?>
+<div id="annonce-bar" class="jquery-bar">
+    <div class="notification">
+      <?php if (is_array($messages) && count($messages)) { ?>
+        <?php foreach($messages as $message) { ?>
+            <p><?php echo $message ?></p>
+        <?php } ?>
+      <?php } ?>
+    </div>
+</div>

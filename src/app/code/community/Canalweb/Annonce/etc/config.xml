@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Canalweb_Annonce>
+            <version>0.0.1</version>
+        </Canalweb_Annonce>
+    </modules>
+    <global>
+        <blocks>
+            <annonce>
+                <class>Canalweb_Annonce_Block</class>
+            </annonce>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <annonce>
+                    <file>annonce.xml</file>
+                </annonce>
+            </updates>
+        </layout>
+    </frontend>
+    <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <annonce translate="title">
+                                            <title>Annonce</title>
+                                        </annonce>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+</config>
