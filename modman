@@ -1,0 +1,14 @@
+src/app/code/community/Canalweb/Annonce                           app/code/community/Canalweb/Annonce                          
+src/app/design/frontend/base/default/layout/annonce.xml           app/design/frontend/base/default/layout/annonce.xml          
+src/app/design/frontend/base/default/template/annonce             app/design/frontend/base/default/template/annonce            
+src/app/etc/modules/Canalweb_Annonce.xml                          app/etc/modules/Canalweb_Annonce.xml                         
+src/skin/frontend/base/default/carousel/ajax-loader.gif           skin/frontend/base/default/carousel/ajax-loader.gif          
+src/skin/frontend/base/default/carousel/owl.carousel.css          skin/frontend/base/default/carousel/owl.carousel.css         
+src/skin/frontend/base/default/carousel/owl.carousel.js           skin/frontend/base/default/carousel/owl.carousel.js          
+src/skin/frontend/base/default/carousel/owl.carousel.min.css      skin/frontend/base/default/carousel/owl.carousel.min.css     
+src/skin/frontend/base/default/carousel/owl.carousel.min.js       skin/frontend/base/default/carousel/owl.carousel.min.js      
+src/skin/frontend/base/default/carousel/owl.theme.default.css     skin/frontend/base/default/carousel/owl.theme.default.css    
+src/skin/frontend/base/default/carousel/owl.theme.default.min.css skin/frontend/base/default/carousel/owl.theme.default.min.css
+src/skin/frontend/base/default/carousel/owl.theme.green.css       skin/frontend/base/default/carousel/owl.theme.green.css      
+src/skin/frontend/base/default/carousel/owl.theme.green.min.css   skin/frontend/base/default/carousel/owl.theme.green.min.css  
+src/skin/frontend/base/default/carousel/owl.video.play.png        skin/frontend/base/default/carousel/owl.video.play.png       
