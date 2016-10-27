@@ -4,7 +4,7 @@ $conf = $this->getConf();
 
 if($conf['activation']):
 ?>
-<div id="annonce-bar" class="jquery-bar">
+<div id="annonce-bar" class="jquery-bar owl-carousel">
       <?php if (is_array($messages) && count($messages)) { ?>
         <?php foreach($messages as $message) { ?>
             <p><?php echo $message ?></p>
