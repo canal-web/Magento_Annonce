@@ -1,5 +1,5 @@
 {
-    "name": "canal-web/magento-slider",
+    "name": "canal-web/magento-annonce",
     "type": "magento-module",
     "description": "Create an owl carrousel of products from a specified attribute set.",
     "require": {
