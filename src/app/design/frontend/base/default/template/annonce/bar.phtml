@@ -1,12 +1,31 @@
 <?php
 $messages = $this->getMessages();
+$conf = $this->getConf();
+
+if($conf['activation']):
 ?>
 <div id="annonce-bar" class="jquery-bar">
-    <div class="notification">
       <?php if (is_array($messages) && count($messages)) { ?>
         <?php foreach($messages as $message) { ?>
             <p><?php echo $message ?></p>
         <?php } ?>
       <?php } ?>
-    </div>
 </div>
+
+<!-- Start slider -->
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+      jQuery("#annonce-bar").owlCarousel({
+          nav: true,
+          dots: false,
+          loop: true,
+          margin: 0,
+          autoplayTimeout : <?= $conf['speed'] ?>,
+          autoplay: <?= $conf['autoplay'] ?>,
+          autoplayHoverPause : true,
+          items: 1
+      });
+    });
+</script>
+
+<?php endif; ?>
