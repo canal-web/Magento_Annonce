@@ -5,26 +5,33 @@ $conf = $this->getConf();
 if($conf['activation']):
 ?>
 <div id="annonce-bar" class="jquery-bar owl-carousel">
+    <div class="notification">
       <?php if (is_array($messages) && count($messages)) { ?>
         <?php foreach($messages as $message) { ?>
-            <p><?php echo $message ?></p>
+            <p style="display:none"><?php echo $message ?></p>
         <?php } ?>
       <?php } ?>
+    </div>
 </div>
 
 <!-- Start slider -->
 <script type="text/javascript">
-    jQuery(document).ready(function() {
-      jQuery("#annonce-bar").owlCarousel({
-          nav: true,
-          dots: false,
-          loop: true,
-          margin: 0,
-          autoplayTimeout : <?= $conf['speed'] ?>,
-          autoplay: <?= $conf['autoplay'] ?>,
-          autoplayHoverPause : true,
-          items: 1
-      });
+    jQuery(document).ready(function($) {
+        $("#annonce-bar .notification p:first-child").show();
+    });
+    jQuery(window).load(function() {
+        jQuery("#annonce-bar .notification").owlCarousel({
+            nav: true,
+            dots: false,
+            loop: true,
+            lazyLoad: true,
+            margin: 0,
+            autoplayTimeout : <?= $conf['speed'] ?>,
+            autoplay: <?= $conf['autoplay'] ?>,
+            autoplayHoverPause : true,
+            items: 1
+        });
+        jQuery("#annonce-bar .notification p").show();
     });
 </script>
 
