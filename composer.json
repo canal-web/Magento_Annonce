@@ -1,7 +1,7 @@
 {
     "name": "canal-web/magento-annonce",
     "type": "magento-module",
-    "description": "Create an owl carrousel of products from a specified attribute set.",
+    "description": "Add sliding configurable messages at the top of your website.",
     "require": {
     },
     "authors":[
