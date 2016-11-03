@@ -70,7 +70,8 @@
                         <message1 translate="label comment">
                             <label>Message 1</label>
                             <comment>Non pris en compte si vide</comment>
-                            <frontend_type>textarea</frontend_type>
+                            <frontend_type>editor</frontend_type>
+                            <frontend_model>annonce/adminhtml_system_config_editor</frontend_model>
                             <sort_order>1</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
@@ -79,7 +80,8 @@
                         <message2 translate="label comment">
                             <label>Message 2</label>
                             <comment>Non pris en compte si vide</comment>
-                            <frontend_type>textarea</frontend_type>
+                            <frontend_type>editor</frontend_type>
+                            <frontend_model>annonce/adminhtml_system_config_editor</frontend_model>
                             <sort_order>10</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
@@ -88,7 +90,8 @@
                         <message3 translate="label comment">
                             <label>Message 3</label>
                             <comment>Non pris en compte si vide</comment>
-                            <frontend_type>textarea</frontend_type>
+                            <frontend_type>editor</frontend_type>
+                            <frontend_model>annonce/adminhtml_system_config_editor</frontend_model>
                             <sort_order>15</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
@@ -97,7 +100,8 @@
                         <message4 translate="label comment">
                             <label>Message 4</label>
                             <comment>Non pris en compte si vide</comment>
-                            <frontend_type>textarea</frontend_type>
+                            <frontend_type>editor</frontend_type>
+                            <frontend_model>annonce/adminhtml_system_config_editor</frontend_model>
                             <sort_order>20</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
@@ -106,7 +110,8 @@
                         <message5 translate="label comment">
                             <label>Message 5</label>
                             <comment>Non pris en compte si vide</comment>
-                            <frontend_type>textarea</frontend_type>
+                            <frontend_type>editor</frontend_type>
+                            <frontend_model>annonce/adminhtml_system_config_editor</frontend_model>
                             <sort_order>25</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
