@@ -1,4 +1,5 @@
 src/app/code/community/Canalweb/Annonce                           app/code/community/Canalweb/Annonce                          
+src/app/design/adminhtml/default/default/layout/annonce.xml       app/design/adminhtml/default/default/layout/annonce.xml      
 src/app/design/frontend/base/default/layout/annonce.xml           app/design/frontend/base/default/layout/annonce.xml          
 src/app/design/frontend/base/default/template/annonce             app/design/frontend/base/default/template/annonce            
 src/app/etc/modules/Canalweb_Annonce.xml                          app/etc/modules/Canalweb_Annonce.xml                         
